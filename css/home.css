@@ -1,0 +1,93 @@
+/* INTRODUÇÃO */
+
+#home {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.introducao {
+  width: 40%;
+  color: var(--white);
+}
+
+.introducao h1 {
+  margin-bottom: 1em;
+  font-size: 24px;
+}
+
+.introducao p {
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.homeContact {
+  display: flex;
+}
+
+.homeContact p {
+  color: var(--white);
+  font-size: 18px;
+  padding-left: 0.5em;
+}
+
+.homeContact a {
+  text-decoration: none;
+}
+
+.socialMedia img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.homeContact .socialMedia {
+  margin-right: 1em;
+  display: flex;
+}
+
+/* PROJETOS */
+
+.projetosHome{
+    margin-top: 3em;
+}
+
+.projeto {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projeto p {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: var(--white);
+  margin: 0.3em;
+}
+
+.projeto span {
+  margin: 0 0.3em;
+  color: var(--white-transparent);
+}
+
+.thumb {
+  height: 170px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.projeto p img {
+  height: 1.2em;
+  width: 1.2em;
+  padding-left: 0.3em;
+}
+
+.gooday {
+  background: url(../src/imgs/thumbs/Gooday.png);
+  background-position: center center;
+}
+.WeatherApp {
+  background: url(../src/imgs/thumbs/WeatherApp.png);
+  background-position: center center;
+}

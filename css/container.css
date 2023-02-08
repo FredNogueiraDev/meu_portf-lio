@@ -1,14 +1,15 @@
-.container{
-    height: 100vh;
-    width: 100%;
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }
 
-.contBlack{
-    background: var(--bgBlack);
+.contBlack {
+  background: var(--bgBlack);
 }
 
-.contDecorated{
-    background: var(--bgBlack) url(../src/imgs/bg_black.png) no-repeat right top fixed;
-    background-position:center center;
-
+.contDecorated {
+  background: var(--bgBlack) url(../src/imgs/bg_black.png) no-repeat right top
+    fixed;
+  background-position: center center;
 }

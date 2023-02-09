@@ -1,0 +1,72 @@
+#cursos {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    color: var(--white);
+
+}
+
+.coursesAndSkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+
+}
+
+.introductionOfCourses {
+    width: 35em;
+}
+
+#cursos .title{
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.introductionOfCourses p{
+    font-size: 18px;
+}
+
+.skills table {
+    font-size: 18px;
+}
+
+.skills td {
+    padding: 0 1em 1em 0;
+}
+
+.skills td img {
+    padding-right: .4em;
+}
+
+.formations {
+    width: 30em;
+}
+
+.course {
+    margin-top: 2em;
+}
+
+.courseName{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.courseName img{
+    margin-right: 1em;
+    height: 2.5em;
+    width: 3.5em;
+}
+
+.titleCourse {
+    font-size: 20px;
+}
+
+.courseDesc {
+    font-size: 16px;
+}
+
+.aboutTheCourse {
+    font-size: 16px;
+    margin-top: 1em;
+}

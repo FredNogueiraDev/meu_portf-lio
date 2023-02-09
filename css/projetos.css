@@ -1,47 +1,46 @@
 #projetos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 140vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140vh;
 }
 
 #projetos .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
 }
 
 .projects a {
-    margin: 1em 3em;
+  margin: 1em 3em;
 }
 
 /* PROJETOS */
 
 .batista {
-    background: url(../src/imgs/thumbs/batista-previa.png);
-    background-position: bottom center;
-  }
-  .calculadora {
-    background: url(../src/imgs/thumbs/Calculadora.png);
-    background-position: center center;
-  }
-  
+  background: url(../src/imgs/thumbs/batista-previa.png);
+  background-position: bottom center;
+}
+.calculadora {
+  background: url(../src/imgs/thumbs/Calculadora.png);
+  background-position: center center;
+}
+
 .conversorDeMoedas {
-    background: url(../src/imgs/thumbs/ConversordeMoedas.png);
-    background-position: center center;
-  }
-  .flappyBird {
-    background: url(../src/imgs/thumbs/FlappyBird.png);
-    background-position: center center;
-  }
-  
+  background: url(../src/imgs/thumbs/ConversordeMoedas.png);
+  background-position: center center;
+}
+.flappyBird {
+  background: url(../src/imgs/thumbs/FlappyBird.png);
+  background-position: center center;
+}
+
 .getAPet {
-    background: url(../src/imgs/thumbs/GetaPet.png);
-    background-position: center center;
-  }
-  .thoughts {
-    background: url(../src/imgs/thumbs/Thoughts.png);
-    background-position: center center;
-  }
-  
+  background: url(../src/imgs/thumbs/GetaPet.png);
+  background-position: center center;
+}
+.thoughts {
+  background: url(../src/imgs/thumbs/Thoughts.png);
+  background-position: center center;
+}

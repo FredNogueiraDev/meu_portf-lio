@@ -6,7 +6,7 @@
 }
 
 .introducao {
-  width: 35em;
+  width: 30em;
   color: var(--white);
 }
 
@@ -24,24 +24,23 @@
   display: flex;
 }
 
-.homeContact p {
+.homeContact a {
   color: var(--white);
   font-size: 18px;
   padding-left: 0.5em;
-}
-
-.homeContact a {
   text-decoration: none;
-}
-
-.socialMedia img {
-  height: 1.5em;
-  width: 1.5em;
-}
-
-.homeContact .socialMedia {
   margin-right: 1em;
   display: flex;
+}
+
+.homeContact a:hover{
+  color: var(--white-hover);
+}
+
+.homeContact a img {
+  height: 1.2em;
+  width: 1.2em;
+  margin-right: .5em;
 }
 
 /* PROJETOS */

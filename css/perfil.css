@@ -1,0 +1,50 @@
+#perfil {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: var(--white);
+}
+
+.perfil {
+	width: 30em;
+}
+
+.perfil h2, .contact h2 {
+	font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.perfil p {
+	font-size: 18px;
+}
+
+.contact li {
+	list-style: none;
+	margin-bottom: 1em;
+}
+
+.contact a {
+	text-decoration: none;
+	color: var(--white);
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+}
+
+.contact a img {
+	height: 1.5em;
+	width: 1.5em;
+	margin-right: .7em;
+}
+
+.final-div {
+	display: flex;
+	height: 10em;
+	width: auto;
+	align-items:flex-end ;
+	justify-content: end;
+}
+
+.final-tag{
+	height:2em;
+}

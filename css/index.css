@@ -10,6 +10,7 @@
 :root {
   --white: #f5f4f5;
   --white-transparent: #f5f4f574;
+  --white-hover:#BFBFBF;
 
   --bgBlack: #0b0b0b;
   --bgBlack-transparent: #0b0b0b81;
@@ -29,4 +30,8 @@ html {
 .flex {
   display: flex;
   justify-content: center;
+}
+
+a:hover{
+  color: var(--white-hover);
 }

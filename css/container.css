@@ -16,3 +16,8 @@
   background-size: cover;
 
 }
+
+.project-container {
+  align-items: center;
+  justify-content: center;
+}

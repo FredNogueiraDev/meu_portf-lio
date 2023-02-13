@@ -16,6 +16,10 @@
   margin: 1em 3em;
 }
 
+.projects a:hover .projeto p {
+  color:var(--white-hover) ;
+}
+
 /* PROJETOS */
 
 .batista {
@@ -23,21 +27,21 @@
   background-position: bottom center;
 }
 .calculadora {
-  background: url(../src/imgs/thumbs/Calculadora.png);
+  background: url(../src/imgs/thumbs/calculadora.png);
   background-position: center center;
 }
 
 .conversorDeMoedas {
-  background: url(../src/imgs/thumbs/ConversordeMoedas.png);
+  background: url(../src/imgs/thumbs/conversor.png);
   background-position: center center;
 }
 .flappyBird {
-  background: url(../src/imgs/thumbs/FlappyBird.png);
+  background: url(../src/imgs/thumbs/flappyBird.png);
   background-position: center center;
 }
 
 .getAPet {
-  background: url(../src/imgs/thumbs/GetaPet.png);
+  background: url(../src/imgs/thumbs/getaPet.png);
   background-position: center center;
 }
 .thoughts {

@@ -180,3 +180,9 @@ textarea {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+#calculadora .body-page .banner {
+  background: url("../src/imgs/banners/calculadora.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}

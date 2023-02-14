@@ -15,6 +15,13 @@
 
   --bgBlack: #0b0b0b;
   --bgBlack-transparent: #0b0b0b81;
+
+  /* Variaveis de posicionamento */
+  --space1: 1em;
+  --space1-1: 1.5em;
+  --space2: 2em;
+  --space2-1: 2.5em;
+  --space3: 3em;
 }
 
 * {

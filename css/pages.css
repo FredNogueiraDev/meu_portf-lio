@@ -2,11 +2,10 @@
   width: 80%;
   height: 75%;
   color: var(--white);
-  margin-bottom: 2em;
+  margin: var(--space2) 0;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .body-page .banner {
@@ -16,10 +15,11 @@
 }
 
 .intro {
+  height: 70vh;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 1.5em;
 }
 
 .intro div {
@@ -34,10 +34,11 @@
 
 .intro-2 {
   width: 100%;
+  height: 70vh;
+
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  margin-top: 3em;
+  justify-content: center;
 }
 
 .intro-2 p {
@@ -59,7 +60,7 @@
 }
 
 .body-page h2 {
-  margin: 1em 0;
+  margin-bottom: var(--space1-1);
 }
 
 .body-page p {
@@ -83,6 +84,10 @@
   text-align: center;
 }
 
+.page-link {
+  padding: var(--space1) 0 0 0;
+}
+
 textarea {
   border: none;
   resize: none;
@@ -99,7 +104,6 @@ textarea {
   width: 100%;
   margin: 1em  0;
 }
-
 
 .images img {
   width: 450px;
@@ -125,7 +129,7 @@ textarea {
 }
 
 .navigate {
-  margin-top: 2em;
+  margin-top: var(--space1);
   display: flex;
   flex-direction: column;
   justify-content: center;

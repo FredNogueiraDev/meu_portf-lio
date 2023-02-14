@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughts</title>
+    <link rel="stylesheet" href="../../css/index.css">
+</head>
+<header>
+    <div class="division">
+        <a href="../../index.html#home" id="logo">portfólio</a>
+    </div>
+    <div class="division">
+        <ul class="flex">
+            <li> <a href="../../index.html#home">home</a></li>
+            <li> <a href="../../index.html#projetos">projetos</a></li>
+            <li> <a href="../../index.html#cursos">cursos</a></li>
+            <li> <a href="../../index.html#perfil">perfil</a></li>
+        </ul>
+    </div>
+    <div class="division"></div>
+</header>
+
+<body>
+    <section class="container contDecorated project-container" id="thoughts">
+        <div class="body-page">
+            <div class="banner"></div>
+            <div class="intro-2">
+                <div>
+                    <h2>Sobre o Thoughts</h2>
+                    <p>Projeto desenvolvido para exercitar meus conhecimentos em HTML, CSS, JavaScript, MySQL e NodeJS, para isso, foi implementado uma rede social denominada de Thoughts, a mesma se baseia no que os usuários estão pensando, estes pensamentos são chamados de thought e ficam expostos na página “Home” para que todos possam ver.</p>
+                </div>
+                <div>
+                    <h2>Como utilizar o projeto</h2>
+                    <p>Para utilizar o Thoughts, você deve ter os seguintes softwares instalados em sua máquina:</p>
+                    <ul>
+                        <li>Node v12.22.9</li>
+                        <li>MySQL v8.0.27</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="contBlackAuto container project-container">
+        <div class="body-page">
+            <div class="navigate">
+                <h2>Projeto</h2>
+                <img src="../imgs/project-imgs/thoughts/thoughts1.png" alt="Imagem projeto">
+                <img src="../imgs/project-imgs/thoughts/thoughts2.png" alt="Imagem projeto">
+                <img src="../imgs/project-imgs/thoughts/thoughts3.png" alt="Imagem projeto">
+                <p class="project-p">Os posts ficam salvos em um banco de dados MySQL, além das contas dos usuários com nome, email e senha, a mesma é criptografada com auxilio do bcrypt.</p>
+                <img src="../imgs/project-imgs/thoughts/thoughts4.png" alt="Imagem projeto">
+                <p class="project-p">Neste exemplo, os usuários Joao e Vinicius estão usando a mesma senha, mesmo assim, o bcrypt se encarrega de criptografar de forma diferente, para a segurança de todos.</p>
+            </div>
+            <div class="code-area">
+                <h2>Instalação</h2>
+                <div class="description-code-area">
+                    <span>Clonagem do projeto</span>
+                    <textarea readonly>git clone https://github.com/FredNogueiraDev/projeto-thoughts.git</textarea>
+                    <span>Criação do banco de dados</span>
+                    <textarea readonly>CREATE SCHEMA `thoughts` ;</textarea>
+                    <span>Instalar dependências</span>
+                    <textarea readonly>npm install</textarea>
+                    <span>Então, execute no terminal</span>
+                    <textarea readonly>npm start</textarea>
+                    <span>Com isso, acesse <b>http://localhost:3000</b>, e o projeto estará pronto para o uso. </span>
+                </div>
+            </div>       
+        </div>
+    </section>
+</body>
+
+<section class="contDecorated">
+    <footer>
+        <ul class="flex">
+            <ul class="flex">
+                <li> <a href="../../index.html#home">home</a></li>
+                <li> <a href="../../index.html#projetos">projetos</a></li>
+                <li> <a href="../../index.html#cursos">cursos</a></li>
+                <li> <a href="../../index.html#perfil">perfil</a></li>
+            </ul>
+        </ul>
+        <hr>
+        </hr>
+        <p>Frederico Nogueira | <b>Meu portfólio pessoal</b> &copy; 2023</p>
+    </footer>
+</section>
+
+</html>

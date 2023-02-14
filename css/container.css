@@ -8,13 +8,16 @@
   background: var(--bgBlack);
 }
 
+.contBlackAuto {
+  height: auto;
+  background: var(--bgBlack);
+}
+
 .contDecorated {
-  background: var(--bgBlack) url(../src/imgs/bg_black.png) no-repeat right top
-    fixed;
+  background: var(--bgBlack) url(../src/imgs/bg_black.png) no-repeat right top fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .project-container {

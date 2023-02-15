@@ -327,3 +327,9 @@ textarea {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+#batista .project-body .project-body-banner {
+  background: url("../src/imgs/banners/batista.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}

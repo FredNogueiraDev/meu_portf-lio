@@ -18,6 +18,48 @@
 	font-size: 18px;
 }
 
+.perfil-body-2 {
+	width: 25em;
+	background: var(--purple);
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.perfil-b2-bg {
+	background: url(../src/imgs/bg_black.png);
+	width: 100%;
+	height: 6.5em;
+	border-radius: 10px 10px 0 0;
+}
+
+.perfil-b2-bg-personal_pic {
+	width: 8em;
+	height: 8em;
+	margin: 2em auto 0 auto;
+	border-radius: 50%;
+	background: url(../src/imgs/foto-pessoal.JPG);
+    background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.perfil-b2-text {
+	text-align: center;
+	margin: 4em 0 var(--space1-1) 0;
+}
+
+.perfil-b2-text h3{
+	font-size: 1.2em;
+}
+
+.perfil-b2-text span{
+	font-size: 1em;
+}
+
 .perfil-body-2 li {
 	list-style: none;
 	margin-bottom: 1em;

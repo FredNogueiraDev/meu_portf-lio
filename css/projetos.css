@@ -1,22 +1,22 @@
-#projetos {
+#projects {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 140vh;
 }
 
-#projetos .projects {
+#projects .projects-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 80vw;
 }
 
-.projects a {
+.projects-body a {
   margin: 1em 3em;
 }
 
-.projects a:hover .projeto p {
+.projects-body a:hover .project p {
   color:var(--white-hover) ;
 }
 

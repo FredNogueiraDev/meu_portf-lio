@@ -1,4 +1,4 @@
-.body-page {
+.project-body {
   width: 80%;
   height: 75%;
   color: var(--white);
@@ -8,13 +8,13 @@
   flex-direction: column;
 }
 
-.body-page .banner {
+.project-body .project-body-banner {
   width: 100%;
   height: 100px;
   border-radius: 10px;
 }
 
-.intro {
+.project-body-text {
   height: 70vh;
 
   display: flex;
@@ -22,17 +22,17 @@
   align-items: center;
 }
 
-.intro div {
+.project-body-text div {
   width: 50%;
   padding-right:2em ;
 }
 
-.intro img {
+.project-body-text img {
   width: 15em;
   height: auto;
 }
 
-.intro-2 {
+.project-body-text-2 {
   width: 100%;
   height: 70vh;
 
@@ -41,50 +41,50 @@
   justify-content: center;
 }
 
-.intro-2 p {
+.project-body-text-2 p {
   margin-top: 1em;
 }
 
-.intro-2 a {
+.project-body-text-2 a {
   margin-top: 1.5em;
 }
 
-.intro-2 li {
+.project-body-text-2 li {
   margin: .5em 0 .5em 1em;
   font-size: 1.2em;
 }
 
-.body-page li {
+.project-body li {
   margin: .5em 0 .5em 1em;
   font-size: 1.2em;
 }
 
-.body-page h2 {
+.project-body h2 {
   margin-bottom: var(--space1-1);
 }
 
-.body-page p {
+.project-body p {
   font-size: 18px;
 }
 
-.project-imgs {
+.project-body-imgs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.project-imgs img {
+.project-body-imgs img {
   width: 15em;
   height: auto;
 }
 
-.body-page a {
+.project-body a {
   color: var(--white);
   font-size: 1.5em;
   text-align: center;
 }
 
-.page-link {
+.project-page-link {
   padding: var(--space1) 0 0 0;
 }
 
@@ -99,28 +99,32 @@ textarea {
   text-align: center;
 }
 
-.p-code-area{
+.description-code-area-p {
   text-align: left;
   width: 100%;
   margin: 1em  0;
 }
 
-.images img {
+.project-body-images img {
   width: 450px;
 }
 
-.code-area, .margin-top {
+.project-body-code, .margin-top {
     margin-top: 3em;
 }
 
-.description-code-area {
+.project-body-code-h2 {
+  margin-top: var(--space1);
+}
+
+.project-body-code-description {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.description-code-area span{
+.project-body-code-description span{
   text-align: left;
   width: 100%;
   margin: 1em 0;
@@ -128,7 +132,7 @@ textarea {
   font-size: 1.2em;
 }
 
-.navigate {
+.project-body-content {
   margin-top: var(--space1);
   display: flex;
   flex-direction: column;
@@ -136,56 +140,56 @@ textarea {
   align-items: center;
 }
 
-.navigate img {
+.project-body-content img {
   width:70%;
   border-radius: 10px;
   height: auto;
   margin-bottom: 2em;
 }
 
-.project-p {
+.project-body-content-p {
   margin-bottom: 2em;
 }
 
 /* BANNERS */
 
-#gooday .body-page .banner {
+#gooday .project-body .project-body-banner {
   background: url("../src/imgs/banners/gooday.png");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#weather-app .body-page .banner {
+#weather-app .project-body .project-body-banner {
   background: url("../src/imgs/banners/weatherApp.png");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#thoughts .body-page .banner {
+#thoughts .project-body .project-body-banner {
   background: url("../src/imgs/banners/thoughts.png");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#getAPet .body-page .banner {
+#getAPet .project-body .project-body-banner {
   background: url("../src/imgs/banners/getAPet.png");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#flappy-bird .body-page .banner {
+#flappy-bird .project-body .project-body-banner {
   background: url("../src/imgs/banners/FlappyBird.png");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#conversor-de-moedas .body-page .banner {
+#conversor-de-moedas .project-body .project-body-banner {
   background: url("../src/imgs/banners/conversorDeMoedas.png");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#calculadora .body-page .banner {
+#calculadora .project-body .project-body-banner {
   background: url("../src/imgs/banners/calculadora.png");
   background-position: center center;
   background-repeat: no-repeat;

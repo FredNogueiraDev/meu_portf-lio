@@ -5,25 +5,25 @@
 	color: var(--white);
 }
 
-.perfil {
+.perfil-body-1 {
 	width: 30em;
 }
 
-.perfil h2, .contact h2 {
+.perfil-body-1 h2, .perfil-body-2 h2 {
 	font-size: 24px;
     margin-bottom: 1em;
 }
 
-.perfil p {
+.perfil-body-1 p {
 	font-size: 18px;
 }
 
-.contact li {
+.perfil-body-2 li {
 	list-style: none;
 	margin-bottom: 1em;
 }
 
-.contact a {
+.perfil-body-2 a {
 	text-decoration: none;
 	color: var(--white);
 	font-size: 18px;
@@ -31,13 +31,13 @@
 	align-items: center;
 }
 
-.contact a img {
+.perfil-body-2 a img {
 	height: 1.5em;
 	width: 1.5em;
 	margin-right: .7em;
 }
 
-.final-div {
+.close-tag {
 	display: flex;
 	height: 10em;
 	width: auto;
@@ -45,6 +45,6 @@
 	justify-content: end;
 }
 
-.final-tag{
+.close-tag-img{
 	height:2em;
 }

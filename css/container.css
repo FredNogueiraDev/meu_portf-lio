@@ -4,16 +4,16 @@
   display: flex;
 }
 
-.contBlack {
+.cont-black {
   background: var(--bgBlack);
 }
 
-.contBlackAuto {
+.cont-black-auto {
   height: auto;
   background: var(--bgBlack);
 }
 
-.contDecorated {
+.cont-decorated {
   background: var(--bgBlack) url(../src/imgs/bg_black.png) no-repeat right top fixed;
   background-position: center center;
   background-repeat: no-repeat;

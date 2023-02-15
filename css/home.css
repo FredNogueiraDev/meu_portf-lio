@@ -5,26 +5,26 @@
   justify-content: space-around;
 }
 
-.introducao {
+.home-text {
   width: 30em;
   color: var(--white);
 }
 
-.introducao h1 {
+.home-text h1 {
   margin-bottom: 1em;
   font-size: 24px;
 }
 
-.introducao p {
+.home-text p {
   font-size: 18px;
   margin-bottom: 1em;
 }
 
-.homeContact {
+.home-text-contacts {
   display: flex;
 }
 
-.homeContact a {
+.home-text-contacts a {
   color: var(--white);
   font-size: 18px;
   padding-left: 0.5em;
@@ -34,11 +34,11 @@
   align-items: center;
 }
 
-.homeContact a:hover{
+.home-text-contacts a:hover{
   color: var(--white-hover);
 }
 
-.homeContact a img {
+.home-text-contacts a img {
   height: 1.4em;
   width: 1.4em;
   margin-right: .5em;
@@ -46,15 +46,15 @@
 
 /* PROJETOS */
 
-.projetosHome {
+.home-projects {
   margin-top: 3em;
 }
 
-.projetosHome a:hover .projeto p {
+.home-projects a:hover .project p {
   color:var(--white-hover) ;
 }
 
-.projeto {
+.project {
   margin-bottom: 1em;
 }
 
@@ -62,7 +62,7 @@ a {
   text-decoration: none;
 }
 
-.projeto p {
+.project p {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -70,18 +70,18 @@ a {
   margin: 0.3em;
 }
 
-.projeto span {
+.project span {
   margin: 0 0.3em;
   color: var(--white-transparent);
 }
 
-.thumb {
+.project-thumb {
   height: 170px;
   width: 450px;
   border-radius: 10px;
 }
 
-.projeto p img {
+.project p img {
   height: 1.2em;
   width: 1.2em;
   padding-left: 0.3em;

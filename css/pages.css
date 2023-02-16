@@ -1,5 +1,6 @@
 .project-body {
   width: 80%;
+  max-width: 1200px;
   height: 75%;
   color: var(--white);
   margin: var(--space2) 0;
@@ -10,6 +11,8 @@
 
 .project-body .project-body-banner {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   height: 100px;
   border-radius: 1em;
 }
@@ -160,7 +163,7 @@ textarea {
   height: auto;
   width: 100%;
   padding-bottom: 2em;
-  margin: 2em 0;
+  margin: 1em 0;
   border-radius: 10px;
   background: var(--purple);
 
@@ -290,46 +293,63 @@ textarea {
   background: url("../src/imgs/banners/gooday.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #weather-app .project-body .project-body-banner {
   background: url("../src/imgs/banners/weatherApp.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #thoughts .project-body .project-body-banner {
   background: url("../src/imgs/banners/thoughts.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #getAPet .project-body .project-body-banner {
   background: url("../src/imgs/banners/getAPet.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #flappy-bird .project-body .project-body-banner {
   background: url("../src/imgs/banners/FlappyBird.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #conversor-de-moedas .project-body .project-body-banner {
   background: url("../src/imgs/banners/conversorDeMoedas.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #calculadora .project-body .project-body-banner {
   background: url("../src/imgs/banners/calculadora.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #batista .project-body .project-body-banner {
   background: url("../src/imgs/banners/batista.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media  (max-width: 1200px) 
+{
+
+  textarea {
+    font-size: 1em;
+  }
+
 }

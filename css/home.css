@@ -76,8 +76,8 @@ a {
 }
 
 .project-thumb {
-  height: 170px;
-  width: 450px;
+  height: 150px;
+  width: 400px;
   border-radius: 10px;
 }
 
@@ -90,8 +90,58 @@ a {
 .gooday {
   background: url(../src/imgs/thumbs/Gooday.png);
   background-position: center center;
+  background-size: cover;
 }
 .WeatherApp {
   background: url(../src/imgs/thumbs/weatherApp.png);
   background-position: center center;
+  background-size: cover;
 }
+
+@media  (min-width: 769px) and (max-width: 992px)
+{
+  #home {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .home-text {
+    width: 80%;
+    margin-top: 5em;
+  }
+
+  .home-projects {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 2em;
+  }
+
+  .project {
+    margin: 1.5em 0;
+  }
+
+  .project-thumb {
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+  }
+}
+
+@media  (min-width: 0px) and (max-width: 768px) {
+
+  #home {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-text {
+    width: 80%;
+  }
+
+  #home #gooday, #home #WeatherApp {
+    display: none;
+  }
+
+}
+

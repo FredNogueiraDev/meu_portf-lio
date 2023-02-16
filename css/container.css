@@ -11,6 +11,8 @@
 .cont-black-auto {
   height: auto;
   background: var(--bgBlack);
+  min-height: 80vh;
+  padding: 1.5em 0;
 }
 
 .cont-decorated {
@@ -23,4 +25,13 @@
 .project-container {
   align-items: center;
   justify-content: center;
+}
+
+@media  (min-width: 0px) and (max-width: 768px) {
+  .cont-decorated-auto {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+  
 }

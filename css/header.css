@@ -26,6 +26,21 @@ header li, header a{
     text-decoration: none;
     list-style: none;
     color: var(--white);
-    margin-left: 5%;
+    margin-left:5%;
     font-size: 20px;
+}
+
+@media  (min-width: 0px) and (max-width: 768px)
+{
+    header {
+        flex-direction: column;
+    }
+    .header-division {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    header li, header a{
+        margin: .5em .2em;
+    }
 }

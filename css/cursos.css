@@ -11,7 +11,6 @@
     flex-direction: column;
     justify-content: space-around;
     height: 70%;
-
 }
 
 .courses-body-text {
@@ -53,19 +52,131 @@
 
 .course-text-name img{
     margin-right: 1em;
-    height: 3em;
     width: 3.5em;
 }
 
 .course-text-name-h3 {
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 .course-text-name-p {
-    font-size: 16px;
+    font-size: .9em;
 }
 
 .course-text-description {
     font-size: 16px;
     margin-top: 1em;
+}
+
+@media  (min-width: 769px) and (max-width: 992px) 
+{
+    #courses {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .courses-body-1 {
+        flex-direction: row;
+        width: 80%;
+        height: auto;
+    }
+
+    .courses-body-text {
+        width: 40%;
+    }
+
+    .courses-body-2 {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    .courses-body-course {
+        height: auto;
+        width: 20em;
+    }
+
+    .course-text-name img{
+        margin-right: .7em;
+        width: 3em;
+    }
+    
+    .course-text-name-h3 {
+        font-size: 1.1em;
+    }
+    
+    .course-text-name-p {
+        font-size: .9em;
+    }
+    
+    .course-text-description {
+        font-size: 18px;
+        margin-top: 1em;
+    }
+
+}
+
+@media  (min-width: 0px) and (max-width: 768px) {
+    #courses {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .courses-body-1 {
+        width: 80%;
+        margin-top: 2em;
+    }
+
+    .courses-body-text, .courses-skills {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .courses-skills h2{
+        margin-top: 1.5em;
+    }
+
+    .courses-skills table {
+        width: 100%;
+    }
+
+    .courses-skills tr {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .courses-skills td {
+        padding: 0 0 1em 0;
+        width: 30%;
+    }
+
+    .courses-body-2 {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .courses-body-course {
+        height: auto;
+    }
+
+    .course-text-name img{
+        margin-right: .7em;
+        width: 3em;
+    }
+    
+    .course-text-name-h3 {
+        font-size: 1.1em;
+    }
+    
+    .course-text-name-p {
+        font-size: .9em;
+    }
+    
+    .course-text-description {
+        font-size: 18px;
+        margin-top: 1em;
+    }
 }

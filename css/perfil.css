@@ -108,3 +108,20 @@
 	}
 	
 }
+
+@media  (min-width: 0px)  and (max-width: 768px) {
+		#perfil {
+		flex-direction: column;
+	}
+	
+	.perfil-body-1 {
+		width: 80%;
+		margin-top: 3em;
+	}
+
+	.perfil-body-2 {
+		width: 80%;
+		margin: 2em 0 1em 0;
+	}
+	
+}

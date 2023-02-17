@@ -353,3 +353,28 @@ textarea {
   }
 
 }
+
+
+@media  (min-width: 0px) and (max-width: 992px){
+  .project-body-text {
+  height: 70vh;
+  flex-direction: column;
+}
+
+.project-body-text div {
+  width: 80%;
+}
+
+.project-body-text img {
+  display: none
+}
+
+ .project-body-banner {
+  display: none;
+}
+
+.project-body-imgs {
+  flex-direction: column;
+}
+
+}

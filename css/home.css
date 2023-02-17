@@ -143,5 +143,10 @@ a {
     display: none;
   }
 
+  .home-text-contacts {
+  flex-direction: column;
+  height: 5em;
+  justify-content: space-around;
+}
 }
 

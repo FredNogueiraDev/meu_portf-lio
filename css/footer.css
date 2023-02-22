@@ -13,7 +13,7 @@ footer li, footer a {
     text-decoration: none;
     list-style: none;
     color: var(--white);
-    margin-left: 5%;
+    margin: 2.5%;
     font-size: 20px;
 }
 
@@ -25,4 +25,11 @@ footer hr {
 footer p {
     color: var(--white);
     font-size: 16px;
+}
+
+@media  (min-width: 0px) and (max-width: 768px)
+{
+    footer li, footer a {
+        font-size: 18px;
+    }
 }

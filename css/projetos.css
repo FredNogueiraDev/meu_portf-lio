@@ -7,20 +7,30 @@
 #projects .projects-body {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
+  justify-content: space-around;
+  width: 80%;
+}
+
+#projects .project-thumb {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .projects-body a {
-  margin: 1em 3em;
+  width: 40%;
+  margin: 2em 0;
+}
+
+.project p {
+  margin-top: 0.5em;
 }
 
 .projects-body a:hover .project p {
-  color:var(--white-hover) ;
+  color: var(--white-hover);
 }
 
 /* PROJETOS */
-
 #projects #gooday {
   display: none;
 }
@@ -33,92 +43,54 @@
   background: url(../src/imgs/thumbs/batista-previa.png);
   background-position: bottom center;
   background-size: cover;
-
 }
 .calculadora {
   background: url(../src/imgs/thumbs/calculadora.png);
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .conversorDeMoedas {
   background: url(../src/imgs/thumbs/conversor.png);
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 .flappyBird {
   background: url(../src/imgs/thumbs/flappyBird.png);
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .getAPet {
   background: url(../src/imgs/thumbs/getaPet.png);
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 .thoughts {
   background: url(../src/imgs/thumbs/Thoughts.png);
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 
-
-/* @media  (max-width: 1200px)  */
-@media  (min-device-width: 993px) and (max-device-width: 1200px)
-{
+@media (min-width: 1350px){
   #projects .project-thumb {
-    height: 150px;
-    width: 350px;
-    border-radius: 10px;
+    height: 200px;
   }
-  .project span {
-    font-size: .8em;
-  }
-  .project span {
-    font-size: .85em;
-  }
-}
-
-@media  (min-width: 769px) and (max-width: 992px)
-{
-  #projects .project-thumb {
-    height: 100px;
-    width: 300px;
-    border-radius: 10px;
-  }
-
   .projects-body a {
-    margin: 0 2em;
+    width: 35%;
+    margin: 2em 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 992px) {
+  .projects-body a {
+    width: 100%;
+    margin: 2em 0;
   }  
-
-  .project p {
-    margin: 0.3em 0 0 0;
-  }
-
-  .project span {
-    font-size: .7em;
-  }
 }
 
-@media  (min-width: 0) and (max-width: 768px)
-{
-  #projects #gooday, #projects #WeatherApp {
+@media (min-width: 0) and (max-width: 768px) {
+  #projects #gooday,
+  #projects #WeatherApp {
     display: block;
-  }
-
-  .projects-body a {
-    width: 100%;
-  }
-
-  #projects .project {
-    margin: 1.5em 0;
-    width: 100%;
-  }
-
-  #projects .project-thumb {
-    height: 10em;
-    width: 100%;
-    border-radius: 10px;
   }
 }

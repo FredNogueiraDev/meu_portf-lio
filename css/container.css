@@ -4,10 +4,6 @@
   display: flex;
 }
 
-.cont-black {
-  background: var(--bgBlack);
-}
-
 .cont-black-auto {
   height: auto;
   background: var(--bgBlack);

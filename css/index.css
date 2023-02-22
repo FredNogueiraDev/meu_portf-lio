@@ -5,6 +5,7 @@
 @import url("./home.css");
 @import url("./projetos.css");
 @import url("./cursos.css");
+@import url("./skills.css");
 @import url("./perfil.css");
 @import url("./footer.css");
 
@@ -15,7 +16,8 @@
 
   --bgBlack: #0b0b0b;
   --bgBlack-transparent: #0b0b0b81;
-  
+  --div-bg: #46464646;
+
   --purple: #24002f2e;
 
   /* Variaveis de posicionamento */

@@ -165,7 +165,7 @@ textarea {
   padding-bottom: 2em;
   margin: 1em 0;
   border-radius: 10px;
-  background: var(--purple);
+  background: var(--div-bg);
 
   display: flex;
   flex-direction: column;
@@ -359,10 +359,12 @@ textarea {
   .project-body-text {
   height: 70vh;
   flex-direction: column;
+  justify-content: center;
 }
 
 .project-body-text div {
   width: 80%;
+  padding: 0;
 }
 
 .project-body-text img {

@@ -256,14 +256,13 @@ textarea {
 
 .project-body-credits ul li img{
   color: #777;
-  height:  1em !important;
+  height:  25px !important;
   transition: 0.5s;
   transition-delay: 0.25s;
 }
 
 .project-body-credits ul li:hover img {
   transform: scale(0);
-  height: 1.2em;
   transition-delay: 0.25s;
 }
 
@@ -271,9 +270,9 @@ textarea {
   position: absolute;
 }
 
-.credits-title {
+.project-body-credits .credits-title {
   color: #fff;
-  font-size: .6em !important;
+  font-size: 18px !important;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   transform: scale(0);
